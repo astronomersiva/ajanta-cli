@@ -6,6 +6,9 @@ use for lazy loading with [ajanta](https://github.com/astronomersiva/ajanta).
 
 ### Usage
 
+* `npm install -g ajanta-cli`
+* Run `ajanta` from any directory. Example, `inputDir=images ajanta`.
+
 - `inputDir` - Specify the input directory, defaults to `process.cwd()`.
 - `resolutions` - A comma separated list of image resolutions.
 - `webp` - If webp images are needed. Defaults to `true`.
